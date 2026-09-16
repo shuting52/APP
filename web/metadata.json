@@ -1,0 +1,8 @@
+{
+  "name": "懒得找-白嫖资源网",
+  "description": "全站海量资源  请个人进行发掘",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

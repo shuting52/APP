@@ -1,0 +1,6 @@
+{
+  "name": "陈淑婷工具箱",
+  "description": "全中文精选实用资源与网站导航平台，支持全屏沉浸与防左右滑动",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

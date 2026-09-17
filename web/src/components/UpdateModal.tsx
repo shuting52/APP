@@ -1,1 +1,171 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBBUFBfQ09ORklHLCBBUFBfVkVSU0lPTiwgUmVtb3RlVmVyc2lvbkluZm8gfSBmcm9tICcuLi9jb25maWcnOwoKaW50ZXJmYWNlIFVwZGF0ZU1vZGFsUHJvcHMgewogIGlzT3BlbjogYm9vbGVhbjsKICAvKiog6L+c56uv5qOA5rWL5Yiw55qE5paw54mI5pys5L+h5oGv77yb5Li656m66KGo56S65pmu6YCa4oCc5pu05paw6K+05piO4oCd5by556qXICovCiAgcmVtb3RlVmVyc2lvbjogUmVtb3RlVmVyc2lvbkluZm8gfCBudWxsOwogIG9uQ2xvc2U6ICgpID0+IHZvaWQ7Cn0KCi8qKgogKiDniYjmnKzmm7TmlrDlvLnnqpfvvJoKICogLSDlvZPmo4DmtYvliLAgR2l0SHViIOi/nOerr+aWsOeJiOacrO+8iHJlbW90ZVZlcnNpb24g6Z2e56m677yJ5pe277yM5by55Ye65by65Yi25pu05paw5by556qX77yMCiAqICAg5LiN5Y+v5YWz6Zet77yI5peg4oCc5oiR55+l6YGT5LqG4oCd5YWl5Y+j77yJ77yM5bGV56S65a6Y5pa5576k5LiO4oCc56uL5Y2z5pu05paw4oCd5oyJ6ZKu77ybCiAqIC0g5peg5paw54mI5pys5pe25L+d55WZ5Y6f4oCc54mI5pys6K+05piO4oCd5by556qX77yM54K55Ye74oCc5oiR55+l6YGT5LqG4oCd5YaZ5YWl5bey6K+754mI5pys5Y+344CCCiAqLwpleHBvcnQgY29uc3QgVXBkYXRlTW9kYWw6IFJlYWN0LkZDPFVwZGF0ZU1vZGFsUHJvcHM+ID0gKHsgaXNPcGVuLCByZW1vdGVWZXJzaW9uLCBvbkNsb3NlIH0pID0+IHsKICBjb25zdCBbZG93bmxvYWRVcmwsIHNldERvd25sb2FkVXJsXSA9IHVzZVN0YXRlPHN0cmluZz4oJycpOwoKICBpZiAoIWlzT3BlbikgcmV0dXJuIG51bGw7CgogIGNvbnN0IGZvcmNlZCA9IEJvb2xlYW4ocmVtb3RlVmVyc2lvbik7CiAgY29uc3QgdGl0bGUgPSBmb3JjZWQKICAgID8gKHJlbW90ZVZlcnNpb24/LnVwZGF0ZVRpdGxlIHx8IGDlj5HnjrDmlrDniYjmnKwgdiR7cmVtb3RlVmVyc2lvbj8udmVyc2lvbk5hbWV9YCkKICAgIDogQVBQX1ZFUlNJT04udXBkYXRlVGl0bGU7CiAgY29uc3QgY3VycmVudE5hbWUgPSBBUFBfVkVSU0lPTi52ZXJzaW9uTmFtZTsKICBjb25zdCBsb2dMaW5lcyA9IGZvcmNlZAogICAgPyAocmVtb3RlVmVyc2lvbj8uY2hhbmdlbG9nID8gU3RyaW5nKHJlbW90ZVZlcnNpb24uY2hhbmdlbG9nKS5zcGxpdCgnXG4nKS5maWx0ZXIoQm9vbGVhbikgOiBbYOWPkeeOsOaWsOeJiOacrCB2JHtyZW1vdGVWZXJzaW9uPy52ZXJzaW9uTmFtZX3vvIzor7fnq4vljbPmm7TmlrDoh7PmnIDmlrDniYjkvZPpqozlrozmlbTlip/og73jgIJgXSkKICAgIDogQVBQX1ZFUlNJT04udXBkYXRlTG9nOwogIGNvbnN0IGxhdGVzdE5hbWUgPSBmb3JjZWQgPyByZW1vdGVWZXJzaW9uPy52ZXJzaW9uTmFtZSA6IGN1cnJlbnROYW1lOwoKICBjb25zdCByZXNvbHZlQXBrVXJsID0gKCk6IHN0cmluZyA9PiB7CiAgICBpZiAoZG93bmxvYWRVcmwpIHJldHVybiBkb3dubG9hZFVybDsKICAgIGNvbnN0IHJhdyA9IHJlbW90ZVZlcnNpb24/LmFwa1VybFJhdyB8fCByZW1vdGVWZXJzaW9uPy5hcGtVcmwgfHwgJyc7CiAgICBpZiAoIXJhdykgcmV0dXJuICcnOwogICAgc2V0RG93bmxvYWRVcmwocmF3KTsKICAgIHJldHVybiByYXc7CiAgfTsKCiAgY29uc3QgaGFuZGxlVXBkYXRlTm93ID0gKCkgPT4gewogICAgY29uc3QgdXJsID0gcmVzb2x2ZUFwa1VybCgpOwogICAgaWYgKCF1cmwpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIC8vIOS8mOWFiOS9v+eUqOezu+e7n+a1j+iniOWZqC/lpJbpg6jlupTnlKjmiZPlvIDkuIvovb3vvIhBUEsg5a6J6KOF5YyF77yJCiAgICAgIGNvbnN0IHcgPSB3aW5kb3cub3Blbih1cmwsICdfYmxhbmsnKTsKICAgICAgaWYgKCF3KSB7CiAgICAgICAgLy8gV2ViVmlldyDmi6bmiKrlvLnnqpfml7bvvIzpmY3nuqfkuLrlvZPliY3nqpflj6Pot7PovawKICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9IHVybDsKICAgICAgfQogICAgfSBjYXRjaCB7CiAgICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gdXJsOwogICAgfQogIH07CgogIGNvbnN0IGhhbmRsZUpvaW5Hcm91cCA9ICgpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHcgPSB3aW5kb3cub3BlbihBUFBfQ09ORklHLm9mZmljaWFsR3JvdXAucXFHcm91cFVybCwgJ19ibGFuaycpOwogICAgICBpZiAoIXcpIHsKICAgICAgICB3aW5kb3cubG9jYXRpb24uaHJlZiA9IEFQUF9DT05GSUcub2ZmaWNpYWxHcm91cC5xcUdyb3VwVXJsOwogICAgICB9CiAgICB9IGNhdGNoIHsKICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBBUFBfQ09ORklHLm9mZmljaWFsR3JvdXAucXFHcm91cFVybDsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPGRpdgogICAgICBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei1bNzBdIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHAtNCBiZy1ibGFjay82NSBiYWNrZHJvcC1ibHVyLXhzIGFuaW1hdGUtaW4gZmFkZS1pbiBkdXJhdGlvbi0yMDAiCiAgICAgIG9uQ2xpY2s9eyhlKSA9PiB7CiAgICAgICAgLy8g5by65Yi25pu05paw5by556qX56aB5q2i54K55Ye76YGu572p5YWz6ZetCiAgICAgICAgaWYgKCFmb3JjZWQgJiYgZS50YXJnZXQgPT09IGUuY3VycmVudFRhcmdldCkgb25DbG9zZSgpOwogICAgICB9fQogICAgPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iaWxraG9lcmktY2FyZCIgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaWxraG9lcmktY29ybmVyIj4KICAgICAgICAgIDxpIGRhdGEtY29ybmVyPSJ0bCIgLz4KICAgICAgICAgIDxpIGRhdGEtY29ybmVyPSJiciIgLz4KICAgICAgICAgIHshZm9yY2VkICYmICgKICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWN0aW9uIgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgICAgICAgIGFyaWEtbGFiZWw9IuWFs+mXreabtOaWsOaPkOekuiIKICAgICAgICAgICAgICB0aXRsZT0i5YWz6ZetIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2VXaWR0aD0iMi41IiBzdHJva2VMaW5lY2FwPSJyb3VuZCIgc3Ryb2tlTGluZWpvaW49InJvdW5kIiBjbGFzc05hbWU9InctNSBoLTUiPgogICAgICAgICAgICAgICAgPGxpbmUgeDE9IjE4IiB5MT0iNiIgeDI9IjYiIHkyPSIxOCIgLz4KICAgICAgICAgICAgICAgIDxsaW5lIHgxPSI2IiB5MT0iNiIgeDI9IjE4IiB5Mj0iMTgiIC8+CiAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaWxraG9lcmktYm94ZXMiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImltZyI+CiAgICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlV2lkdGg9IjIiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiBzdHJva2VMaW5lam9pbj0icm91bmQiIGNsYXNzTmFtZT0idy05IGgtOSB0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgICA8cGF0aCBkPSJNMTQuNyA2LjNhMSAxIDAgMCAwIDAgMS40bDEuNiAxLjZhMSAxIDAgMCAwIDEuNCAwbDMuMTA2LTMuMTA1Yy4zMi0uMzIyLjg2My0uMjIuOTgzLjIxOGE2IDYgMCAwIDEtOC4yNTkgNy4wNTdsLTcuOTEgNy45MWExIDEgMCAwIDEtMi45OTktM2w3LjkxLTcuOTFhNiA2IDAgMCAxIDcuMDU3LTguMjU5Yy40MzguMTIuNTQuNjYyLjIxOS45ODR6IiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJpbGtob2VyaS1jYXJkLWJvZHkgcHgtNSBwYi02IHB0LTIiPgogICAgICAgICAge2ZvcmNlZCAmJiAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgdGV4dC1bMTFweF0gZm9udC1ib2xkIHRleHQtWyNjODEwMmVdIGRhcms6dGV4dC1yZWQtNDAwIHRyYWNraW5nLXdpZGVzdCBtYi0xIj4KICAgICAgICAgICAgICDimqAg5qOA5rWL5Yiw5paw54mI5pysIMK3IOivt+abtOaWsOWQjue7p+e7reS9v+eUqAogICAgICAgICAgICA8L3A+CiAgICAgICAgICApfQogICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWV4dHJhYm9sZCB0ZXh0LXNsYXRlLTgwMCBkYXJrOnRleHQtc2xhdGUtMTAwIHRleHQtY2VudGVyIG1iLTEiPgogICAgICAgICAgICB7dGl0bGV9CiAgICAgICAgICA8L2gzPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciB0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTUwMCBkYXJrOnRleHQtc2xhdGUtNDAwIG1iLTMiPgogICAgICAgICAgICDlvZPliY3niYjmnKwgdntjdXJyZW50TmFtZX0KICAgICAgICAgICAge2ZvcmNlZCAmJiA8c3BhbiBjbGFzc05hbWU9InRleHQtWyNjODEwMmVdIGRhcms6dGV4dC1yZWQtNDAwIGZvbnQtc2VtaWJvbGQiPiDihpIg5pyA5pawIHZ7bGF0ZXN0TmFtZX08L3NwYW4+fQogICAgICAgICAgPC9wPgogICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0xLjUgdGV4dC1bMTIuNXB4XSB0ZXh0LXNsYXRlLTcwMCBkYXJrOnRleHQtc2xhdGUtMjAwIG1iLTQiPgogICAgICAgICAgICB7bG9nTGluZXMubWFwKChsaW5lLCBpZHgpID0+ICgKICAgICAgICAgICAgICA8bGkga2V5PXtpZHh9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1hbWJlci01MDAgZGFyazp0ZXh0LWFtYmVyLTQwMCBmb250LWJvbGQgc2hyaW5rLTAiPuKcpjwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuPntsaW5lfTwvc3Bhbj4KICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvdWw+CgogICAgICAgICAgey8qIOWumOaWuee+pOWFpeWPo++8iOW8uuWItuabtOaWsOaXtuWxleekuu+8iSAqL30KICAgICAgICAgIHtmb3JjZWQgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNCByb3VuZGVkLTJ4bCBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItYW1iZXItNDAwLzYwIGJnLWFtYmVyLTUwLzcwIGRhcms6YmctYW1iZXItOTUwLzMwIHAtMyB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LVsxMXB4XSB0ZXh0LXNsYXRlLTUwMCBkYXJrOnRleHQtc2xhdGUtMzAwIG1iLTEuNSI+6YGH5Yiw6Zeu6aKY77yf5Yqg5YWl5a6Y5pa5576k6I635Y+W5biu5Yqp5LiO5pyA5paw5raI5oGvPC9wPgogICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUpvaW5Hcm91cH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtNCBweS0xLjUgcm91bmRlZC14bCBiZy1ncmFkaWVudC10by1yIGZyb20tYW1iZXItNTAwIHRvLW9yYW5nZS01MDAgaG92ZXI6ZnJvbS1hbWJlci00MDAgaG92ZXI6dG8tb3JhbmdlLTQwMCB0ZXh0LXdoaXRlIHRleHQteHMgZm9udC1ib2xkIHNoYWRvdy1tZCBzaGFkb3ctYW1iZXItNTAwLzMwIHRyYW5zaXRpb24tYWxsIGhvdmVyOnNjYWxlLVsxLjAzXSBhY3RpdmU6c2NhbGUtOTUgY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge0FQUF9DT05GSUcub2ZmaWNpYWxHcm91cC5ncm91cE5hbWV977yIe0FQUF9DT05GSUcub2ZmaWNpYWxHcm91cC5xcU51bWJlcn3vvIkKICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIHtmb3JjZWQgPyAoCiAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlVXBkYXRlTm93fQogICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB5LTMgcm91bmRlZC0yeGwgYmctZ3JhZGllbnQtdG8tciBmcm9tLVsjYzgxMDJlXSB0by1bIzhiMDAwMF0gaG92ZXI6ZnJvbS1bI2Q4MWEzYV0gaG92ZXI6dG8tWyNhMDEwMjBdIHRleHQtd2hpdGUgZm9udC1leHRyYWJvbGQgdGV4dC1zbSBjdXJzb3ItcG9pbnRlciBzaGFkb3ctbWQgc2hhZG93LVsjYzgxMDJlXS80MCB0cmFuc2l0aW9uLWFsbCBob3ZlcjpzY2FsZS1bMS4wMl0gYWN0aXZlOnNjYWxlLTk1IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAg56uL5Y2z5pu05pawCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB5LTIuNSByb3VuZGVkLTJ4bCBiZy1ncmFkaWVudC10by1yIGZyb20tWyNjODEwMmVdIHRvLVsjOGIwMDAwXSBob3Zlcjpmcm9tLVsjZDgxYTNhXSBob3Zlcjp0by1bI2EwMTAyMF0gdGV4dC13aGl0ZSBmb250LWJvbGQgdGV4dC1zbSBjdXJzb3ItcG9pbnRlciBzaGFkb3ctbWQgc2hhZG93LVsjYzgxMDJlXS8zMCB0cmFuc2l0aW9uLWFsbCBob3ZlcjpzY2FsZS1bMS4wMl0gYWN0aXZlOnNjYWxlLTk1IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAg5oiR55+l6YGT5LqGCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgKX0KICAgICAgICAgIHtmb3JjZWQgJiYgKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtY2VudGVyIHRleHQtWzEwcHhdIHRleHQtc2xhdGUtNDAwIGRhcms6dGV4dC1zbGF0ZS01MDAgbXQtMiI+CiAgICAgICAgICAgICAg5pu05paw5ZCO5omN6IO957un57ut5L2/55So5a6M5pW05Yqf6IO9CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsK
+import React, { useState } from 'react';
+import { APP_CONFIG, APP_VERSION, RemoteVersionInfo } from '../config';
+
+interface UpdateModalProps {
+  isOpen: boolean;
+  /** 远端检测到的新版本信息；为空表示普通"更新说明"弹窗 */
+  remoteVersion: RemoteVersionInfo | null;
+  onClose: () => void;
+}
+
+/**
+ * 版本更新弹窗：流体红 blob 毛玻璃卡片 (From Uiverse.io by dylanharriscameron)
+ * - 检测到 GitHub 远端新版本（remoteVersion 非空）时，强制更新弹窗，不可关闭；
+ * - 无新版本时保留"版本说明"弹窗，点击"我知道了"写入已读版本号。
+ */
+export const UpdateModal: React.FC<UpdateModalProps> = ({ isOpen, remoteVersion, onClose }) => {
+  const [downloadUrl, setDownloadUrl] = useState<string>('');
+
+  if (!isOpen) return null;
+
+  const forced = Boolean(remoteVersion);
+  const title = forced
+    ? (remoteVersion?.updateTitle || `发现新版本 v${remoteVersion?.versionName}`)
+    : APP_VERSION.updateTitle;
+  const currentName = APP_VERSION.versionName;
+  const logLines = forced
+    ? (remoteVersion?.changelog ? String(remoteVersion.changelog).split('\n').filter(Boolean) : [`发现新版本 v${remoteVersion?.versionName}，请立即更新至最新版体验完整功能。`])
+    : APP_VERSION.updateLog;
+  const latestName = forced ? remoteVersion?.versionName : currentName;
+
+  const resolveApkUrl = (): string => {
+    if (downloadUrl) return downloadUrl;
+    const raw = remoteVersion?.apkUrlRaw || remoteVersion?.apkUrl || '';
+    if (!raw) return '';
+    setDownloadUrl(raw);
+    return raw;
+  };
+
+  const handleUpdateNow = () => {
+    const url = resolveApkUrl();
+    if (!url) return;
+    try {
+      // 优先使用系统浏览器/外部应用打开下载（APK 安装包）
+      const w = window.open(url, '_blank');
+      if (!w) {
+        // WebView 拦截弹窗时，降级为当前窗口跳转
+        window.location.href = url;
+      }
+    } catch {
+      window.location.href = url;
+    }
+  };
+
+  const handleJoinGroup = () => {
+    try {
+      const w = window.open(APP_CONFIG.officialGroup.qqGroupUrl, '_blank');
+      if (!w) {
+        window.location.href = APP_CONFIG.officialGroup.qqGroupUrl;
+      }
+    } catch {
+      window.location.href = APP_CONFIG.officialGroup.qqGroupUrl;
+    }
+  };
+
+  return (
+    <div
+      className="fixed inset-0 z-[70] flex items-center justify-center p-4 bg-black/65 backdrop-blur-xs animate-in fade-in duration-200"
+      onClick={(e) => {
+        // 强制更新弹窗禁止点击遮罩关闭
+        if (!forced && e.target === e.currentTarget) onClose();
+      }}
+    >
+      <div className="blob-card w-full max-w-md" role="dialog" aria-modal="true">
+        <div className="blob-card-bg" />
+        <div className="blob-card-blob" />
+        <div className="blob-card-inner p-5 sm:p-6">
+          {/* Header */}
+          <div className="flex items-center justify-between pb-3.5 border-b border-orange-300/30 mb-4">
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#c8102e] to-[#ff5d00] text-white flex items-center justify-center shadow-md shadow-red-500/30 shrink-0">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-base sm:text-lg font-black bg-gradient-to-r from-red-600 via-orange-500 to-amber-500 bg-clip-text text-transparent tracking-wide">
+                  {forced ? '发现新版本' : '版本说明'}
+                </h3>
+                <p className="text-[11px] text-slate-500 dark:text-slate-400">
+                  当前版本 v{currentName}
+                  {forced && <span className="text-[#c8102e] dark:text-red-400 font-semibold"> → 最新 v{latestName}</span>}
+                </p>
+              </div>
+            </div>
+            {!forced && (
+              <button
+                type="button"
+                onClick={onClose}
+                aria-label="关闭更新提示"
+                title="关闭"
+                className="w-8 h-8 rounded-full bg-orange-500/15 hover:bg-orange-500/30 text-orange-800 dark:text-orange-200 border border-orange-300/40 hover:scale-105 active:scale-95 transition-all flex items-center justify-center cursor-pointer shadow-2xs"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </button>
+            )}
+          </div>
+
+          {/* Body */}
+          <div className="space-y-3 mb-4">
+            {forced && (
+              <p className="text-center text-[11px] font-bold text-[#c8102e] dark:text-red-400 tracking-widest">
+                ⚠ 检测到新版本 · 请更新后继续使用
+              </p>
+            )}
+            <ul className="space-y-1.5 text-[12.5px] text-slate-700 dark:text-slate-200">
+              {logLines.map((line, idx) => (
+                <li key={idx} className="flex items-start gap-1.5">
+                  <span className="text-amber-500 dark:text-amber-400 font-bold shrink-0">✦</span>
+                  <span>{line}</span>
+                </li>
+              ))}
+            </ul>
+
+            {/* 官方群入口（强制更新时展示） */}
+            {forced && (
+              <div className="rounded-2xl border border-dashed border-amber-400/60 bg-amber-50/70 dark:bg-amber-950/30 p-3 text-center">
+                <p className="text-[11px] text-slate-500 dark:text-slate-300 mb-1.5">遇到问题？加入官方群获取帮助与最新消息</p>
+                <button
+                  type="button"
+                  onClick={handleJoinGroup}
+                  className="px-4 py-1.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-white text-xs font-bold shadow-md shadow-amber-500/30 transition-all hover:scale-[1.03] active:scale-95 cursor-pointer"
+                >
+                  {APP_CONFIG.officialGroup.groupName}（{APP_CONFIG.officialGroup.qqNumber}）
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Footer */}
+          <div className="border-t border-orange-300/30 pt-3.5">
+            {forced ? (
+              <button
+                type="button"
+                onClick={handleUpdateNow}
+                className="w-full py-3 rounded-2xl bg-gradient-to-r from-[#c8102e] to-[#8b0000] hover:from-[#d81a3a] hover:to-[#a01020] text-white font-extrabold text-sm cursor-pointer shadow-md shadow-[#c8102e]/40 transition-all hover:scale-[1.02] active:scale-95"
+              >
+                立即更新
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={onClose}
+                className="w-full py-2.5 rounded-2xl bg-gradient-to-r from-[#c8102e] to-[#8b0000] hover:from-[#d81a3a] hover:to-[#a01020] text-white font-bold text-sm cursor-pointer shadow-md shadow-[#c8102e]/30 transition-all hover:scale-[1.02] active:scale-95"
+              >
+                我知道了
+              </button>
+            )}
+            {forced && (
+              <p className="text-center text-[10px] text-slate-400 dark:text-slate-500 mt-2">
+                更新后才能继续使用完整功能
+              </p>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

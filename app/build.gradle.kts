@@ -1,1 +1,141 @@
-aW1wb3J0IGNvbS5nb29nbGUuZ21zLmdvb2dsZXNlcnZpY2VzLkdvb2dsZVNlcnZpY2VzUGx1Z2luLk1pc3NpbmdHb29nbGVTZXJ2aWNlc1N0cmF0ZWd5CgpwbHVnaW5zIHsKICBhbGlhcyhsaWJzLnBsdWdpbnMuYW5kcm9pZC5hcHBsaWNhdGlvbikKICBhbGlhcyhsaWJzLnBsdWdpbnMua290bGluLmNvbXBvc2UpCiAgYWxpYXMobGlicy5wbHVnaW5zLmdvb2dsZS5kZXZ0b29scy5rc3ApCiAgYWxpYXMobGlicy5wbHVnaW5zLnJvYm9yYXp6aSkKICBhbGlhcyhsaWJzLnBsdWdpbnMuc2VjcmV0cykKICBhbGlhcyhsaWJzLnBsdWdpbnMuZ29vZ2xlLnNlcnZpY2VzKQp9CgphbmRyb2lkIHsKICBuYW1lc3BhY2UgPSAiY29tLmV4YW1wbGUiCiAgY29tcGlsZVNkayB7IHZlcnNpb24gPSByZWxlYXNlKDM2KSB7IG1pbm9yQXBpTGV2ZWwgPSAxIH0gfQoKICBkZWZhdWx0Q29uZmlnIHsKICAgIGFwcGxpY2F0aW9uSWQgPSAiY29tLmFpc3R1ZGlvLmNoZW5zaHV0aW5nLmFwcCIKICAgIG1pblNkayA9IDI0CiAgICB0YXJnZXRTZGsgPSAzNgogICAgdmVyc2lvbkNvZGUgPSA2CiAgICB2ZXJzaW9uTmFtZSA9ICIxLjAuNSIKCiAgICB0ZXN0SW5zdHJ1bWVudGF0aW9uUnVubmVyID0gImFuZHJvaWR4LnRlc3QucnVubmVyLkFuZHJvaWRKVW5pdFJ1bm5lciIKICB9CgogIHNpZ25pbmdDb25maWdzIHsKICAgIGNyZWF0ZSgicmVsZWFzZSIpIHsKICAgICAgdmFsIGtleXN0b3JlUGF0aCA9IFN5c3RlbS5nZXRlbnYoIktFWVNUT1JFX1BBVEgiKSA/OiAiJHtyb290RGlyfS9teS11cGxvYWQta2V5LmprcyIKICAgICAgc3RvcmVGaWxlID0gZmlsZShrZXlzdG9yZVBhdGgpCiAgICAgIHN0b3JlUGFzc3dvcmQgPSBTeXN0ZW0uZ2V0ZW52KCJTVE9SRV9QQVNTV09SRCIpCiAgICAgIGtleUFsaWFzID0gInVwbG9hZCIKICAgICAga2V5UGFzc3dvcmQgPSBTeXN0ZW0uZ2V0ZW52KCJLRVlfUEFTU1dPUkQiKQogICAgfQogICAgY3JlYXRlKCJkZWJ1Z0NvbmZpZyIpIHsKICAgICAgc3RvcmVGaWxlID0gZmlsZSgiJHtyb290RGlyfS9kZWJ1Zy5rZXlzdG9yZSIpCiAgICAgIHN0b3JlUGFzc3dvcmQgPSAiYW5kcm9pZCIKICAgICAga2V5QWxpYXMgPSAiYW5kcm9pZGRlYnVna2V5IgogICAgICBrZXlQYXNzd29yZCA9ICJhbmRyb2lkIgogICAgfQogIH0KCiAgYnVpbGRUeXBlcyB7CiAgICByZWxlYXNlIHsKICAgICAgaXNDcnVuY2hQbmdzID0gZmFsc2UKICAgICAgaXNNaW5pZnlFbmFibGVkID0gZmFsc2UKICAgICAgcHJvZ3VhcmRGaWxlcyhnZXREZWZhdWx0UHJvZ3VhcmRGaWxlKCJwcm9ndWFyZC1hbmRyb2lkLW9wdGltaXplLnR4dCIpLCAicHJvZ3VhcmQtcnVsZXMucHJvIikKICAgICAgc2lnbmluZ0NvbmZpZyA9IHNpZ25pbmdDb25maWdzLmdldEJ5TmFtZSgicmVsZWFzZSIpCiAgICB9CiAgICBkZWJ1ZyB7IHNpZ25pbmdDb25maWcgPSBzaWduaW5nQ29uZmlncy5nZXRCeU5hbWUoImRlYnVnQ29uZmlnIikgfQogIH0KICBjb21waWxlT3B0aW9ucyB7CiAgICBzb3VyY2VDb21wYXRpYmlsaXR5ID0gSmF2YVZlcnNpb24uVkVSU0lPTl8xMQogICAgdGFyZ2V0Q29tcGF0aWJpbGl0eSA9IEphdmFWZXJzaW9uLlZFUlNJT05fMTEKICB9CiAgYnVpbGRGZWF0dXJlcyB7CiAgICBjb21wb3NlID0gdHJ1ZQogICAgYnVpbGRDb25maWcgPSB0cnVlCiAgfQogIHRlc3RPcHRpb25zIHsgdW5pdFRlc3RzIHsgaXNJbmNsdWRlQW5kcm9pZFJlc291cmNlcyA9IHRydWUgfSB9CiAgZGVwZW5kZW5jaWVzSW5mbyB7CiAgICBpbmNsdWRlSW5BcGsgPSBmYWxzZQogICAgaW5jbHVkZUluQnVuZGxlID0gdHJ1ZQogIH0KfQoKLy8gQ29uZmlndXJlIHRoZSBTZWNyZXRzIEdyYWRsZSBQbHVnaW4gdG8gdXNlIC5lbnYgYW5kIC5lbnYuZXhhbXBsZSBmaWxlcwovLyB0byBtYXRjaCB0aGUgY29udmVudGlvbiB1c2VkIGluIFdlYiBwcm9qZWN0cy4Kc2VjcmV0cyB7CiAgcHJvcGVydGllc0ZpbGVOYW1lID0gIi5lbnYiCiAgZGVmYXVsdFByb3BlcnRpZXNGaWxlTmFtZSA9ICIuZW52LmV4YW1wbGUiCiAgaWdub3JlTGlzdC5hZGQoIkZJUkVCQVNFX0FQUENIRUNLX0RFQlVHX1RPS0VOIikKfQoKZ29vZ2xlU2VydmljZXMgeyBtaXNzaW5nR29vZ2xlU2VydmljZXNTdHJhdGVneSA9IE1pc3NpbmdHb29nbGVTZXJ2aWNlc1N0cmF0ZWd5LldBUk4gfQoKLy8gU29tZSB1bnVzZWQgZGVwZW5kZW5jaWVzIGFyZSBjb21tZW50ZWQgb3V0IGJlbG93IGluc3RlYWQgb2YgYmVpbmcgcmVtb3ZlZC4KLy8gVGhpcyBtYWtlcyBpdCBlYXN5IHRvIGFkZCB0aGVtIGJhY2sgaW4gdGhlIGZ1dHVyZSBpZiBuZWVkZWQuCmRlcGVuZGVuY2llcyB7CiAgaW1wbGVtZW50YXRpb24ocGxhdGZvcm0obGlicy5hbmRyb2lkeC5jb21wb3NlLmJvbSkpCiAgaW1wbGVtZW50YXRpb24ocGxhdGZvcm0obGlicy5maXJlYmFzZS5ib20pKQogIC8vIGltcGxlbWVudGF0aW9uKGxpYnMuYWNjb21wYW5pc3QucGVybWlzc2lvbnMpCiAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5hY3Rpdml0eS5jb21wb3NlKQogIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHgud2Via2l0KQogIC8vIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHguY2FtZXJhLmNhbWVyYTIpCiAgLy8gaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jYW1lcmEuY29yZSkKICAvLyBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNhbWVyYS5saWZlY3ljbGUpCiAgLy8gaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jYW1lcmEudmlldykKICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuY29yZSkKICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZXh0ZW5kZWQpCiAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMykKICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvbXBvc2UudWkpCiAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzKQogIGltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHguY29tcG9zZS51aS50b29saW5nLnByZXZpZXcpCiAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb3JlLmt0eCkKICAvLyBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcykKICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmxpZmVjeWNsZS5ydW50aW1lLmNvbXBvc2UpCiAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5saWZlY3ljbGUucnVudGltZS5rdHgpCiAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5saWZlY3ljbGUudmlld21vZGVsLmNvbXBvc2UpCiAgLy8gaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5uYXZpZ2F0aW9uLmNvbXBvc2UpCiAgaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5yb29tLmt0eCkKICBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LnJvb20ucnVudGltZSkKICAvLyBpbXBsZW1lbnRhdGlvbihsaWJzLmNvaWwuY29tcG9zZSkKICBpbXBsZW1lbnRhdGlvbihsaWJzLmNvbnZlcnRlci5tb3NoaSkKICBpbXBsZW1lbnRhdGlvbihsaWJzLmZpcmViYXNlLmFpKQogIC8vIFVuY29tbWVudCB0byB1c2UgRmlyZXN0b3JlOgogIC8vIGltcGxlbWVudGF0aW9uKGxpYnMuZmlyZWJhc2UuZmlyZXN0b3JlKQoKICAvLyBVbmNvbW1lbnQgQUxMIEZPVVIgb2YgdGhlIGZvbGxvd2luZyBkZXBlbmRlbmNpZXMgdG9nZXRoZXIgdG8gdXNlIEZpcmViYXNlIEF1dGggYW5kIEdvb2dsZQogIC8vIFNpZ24tSW4gdmlhIENyZWRlbnRpYWwgTWFuYWdlcjoKICAvLyBpbXBsZW1lbnRhdGlvbihsaWJzLmZpcmViYXNlLmF1dGgpCiAgLy8gaW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jcmVkZW50aWFscykKICAvLyBpbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNyZWRlbnRpYWxzLnBsYXkuc2VydmljZXMpCiAgLy8gaW1wbGVtZW50YXRpb24obGlicy5nb29nbGVpZCkKICBpbXBsZW1lbnRhdGlvbihsaWJzLmZpcmViYXNlLmFwcGNoZWNrLnJlY2FwdGNoYSkKICBpbXBsZW1lbnRhdGlvbihsaWJzLmZpcmViYXNlLmFwcGNoZWNrLmRlYnVnKQogIGltcGxlbWVudGF0aW9uKGxpYnMua290bGlueC5jb3JvdXRpbmVzLmFuZHJvaWQpCiAgaW1wbGVtZW50YXRpb24obGlicy5rb3RsaW54LmNvcm91dGluZXMuY29yZSkKICBpbXBsZW1lbnRhdGlvbihsaWJzLmxvZ2dpbmcuaW50ZXJjZXB0b3IpCiAgaW1wbGVtZW50YXRpb24obGlicy5tb3NoaS5rb3RsaW4pCiAgaW1wbGVtZW50YXRpb24obGlicy5va2h0dHApCiAgLy8gaW1wbGVtZW50YXRpb24obGlicy5wbGF5LnNlcnZpY2VzLmxvY2F0aW9uKQogIGltcGxlbWVudGF0aW9uKGxpYnMucmV0cm9maXQpCiAgdGVzdEltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHguY29tcG9zZS51aS50ZXN0Lmp1bml0NCkKICB0ZXN0SW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb3JlKQogIHRlc3RJbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4Lmp1bml0KQogIHRlc3RJbXBsZW1lbnRhdGlvbihsaWJzLmp1bml0KQogIHRlc3RJbXBsZW1lbnRhdGlvbihsaWJzLmtvdGxpbnguY29yb3V0aW5lcy50ZXN0KQogIHRlc3RJbXBsZW1lbnRhdGlvbihsaWJzLnJvYm9sZWN0cmljKQogIHRlc3RJbXBsZW1lbnRhdGlvbihsaWJzLnJvYm9yYXp6aSkKICB0ZXN0SW1wbGVtZW50YXRpb24obGlicy5yb2JvcmF6emkuY29tcG9zZSkKICB0ZXN0SW1wbGVtZW50YXRpb24obGlicy5yb2JvcmF6emkuanVuaXQucnVsZSkKICBhbmRyb2lkVGVzdEltcGxlbWVudGF0aW9uKHBsYXRmb3JtKGxpYnMuYW5kcm9pZHguY29tcG9zZS5ib20pKQogIGFuZHJvaWRUZXN0SW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb21wb3NlLnVpLnRlc3QuanVuaXQ0KQogIGFuZHJvaWRUZXN0SW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5lc3ByZXNzby5jb3JlKQogIGFuZHJvaWRUZXN0SW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5qdW5pdCkKICBhbmRyb2lkVGVzdEltcGxlbWVudGF0aW9uKGxpYnMuYW5kcm9pZHgucnVubmVyKQogIGRlYnVnSW1wbGVtZW50YXRpb24obGlicy5hbmRyb2lkeC5jb21wb3NlLnVpLnRlc3QubWFuaWZlc3QpCiAgZGVidWdJbXBsZW1lbnRhdGlvbihsaWJzLmFuZHJvaWR4LmNvbXBvc2UudWkudG9vbGluZykKICAia3NwIihsaWJzLmFuZHJvaWR4LnJvb20uY29tcGlsZXIpCiAgImtzcCIobGlicy5tb3NoaS5rb3RsaW4uY29kZWdlbikKfQo=
+import com.google.gms.googleservices.GoogleServicesPlugin.MissingGoogleServicesStrategy
+
+plugins {
+  alias(libs.plugins.android.application)
+  alias(libs.plugins.kotlin.compose)
+  alias(libs.plugins.google.devtools.ksp)
+  alias(libs.plugins.roborazzi)
+  alias(libs.plugins.secrets)
+  alias(libs.plugins.google.services)
+}
+
+android {
+  namespace = "com.example"
+  compileSdk { version = release(36) { minorApiLevel = 1 } }
+
+  defaultConfig {
+    applicationId = "com.aistudio.chenshuting.app"
+    minSdk = 24
+    targetSdk = 36
+    versionCode = 7
+    versionName = "1.0.6"
+
+    testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+  }
+
+  signingConfigs {
+    create("release") {
+      val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/my-upload-key.jks"
+      storeFile = file(keystorePath)
+      storePassword = System.getenv("STORE_PASSWORD")
+      keyAlias = "upload"
+      keyPassword = System.getenv("KEY_PASSWORD")
+    }
+    create("debugConfig") {
+      storeFile = file("${rootDir}/debug.keystore")
+      storePassword = "android"
+      keyAlias = "androiddebugkey"
+      keyPassword = "android"
+    }
+  }
+
+  buildTypes {
+    release {
+      isCrunchPngs = false
+      isMinifyEnabled = false
+      proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+      signingConfig = signingConfigs.getByName("release")
+    }
+    debug { signingConfig = signingConfigs.getByName("debugConfig") }
+  }
+  compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+  }
+  buildFeatures {
+    compose = true
+    buildConfig = true
+  }
+  testOptions { unitTests { isIncludeAndroidResources = true } }
+  dependenciesInfo {
+    includeInApk = false
+    includeInBundle = true
+  }
+}
+
+// Configure the Secrets Gradle Plugin to use .env and .env.example files
+// to match the convention used in Web projects.
+secrets {
+  propertiesFileName = ".env"
+  defaultPropertiesFileName = ".env.example"
+  ignoreList.add("FIREBASE_APPCHECK_DEBUG_TOKEN")
+}
+
+googleServices { missingGoogleServicesStrategy = MissingGoogleServicesStrategy.WARN }
+
+// Some unused dependencies are commented out below instead of being removed.
+// This makes it easy to add them back in the future if needed.
+dependencies {
+  implementation(platform(libs.androidx.compose.bom))
+  implementation(platform(libs.firebase.bom))
+  // implementation(libs.accompanist.permissions)
+  implementation(libs.androidx.activity.compose)
+  implementation(libs.androidx.webkit)
+  // implementation(libs.androidx.camera.camera2)
+  // implementation(libs.androidx.camera.core)
+  // implementation(libs.androidx.camera.lifecycle)
+  // implementation(libs.androidx.camera.view)
+  implementation(libs.androidx.compose.material.icons.core)
+  implementation(libs.androidx.compose.material.icons.extended)
+  implementation(libs.androidx.compose.material3)
+  implementation(libs.androidx.compose.ui)
+  implementation(libs.androidx.compose.ui.graphics)
+  implementation(libs.androidx.compose.ui.tooling.preview)
+  implementation(libs.androidx.core.ktx)
+  // implementation(libs.androidx.datastore.preferences)
+  implementation(libs.androidx.lifecycle.runtime.compose)
+  implementation(libs.androidx.lifecycle.runtime.ktx)
+  implementation(libs.androidx.lifecycle.viewmodel.compose)
+  // implementation(libs.androidx.navigation.compose)
+  implementation(libs.androidx.room.ktx)
+  implementation(libs.androidx.room.runtime)
+  // implementation(libs.coil.compose)
+  implementation(libs.converter.moshi)
+  implementation(libs.firebase.ai)
+  // Uncomment to use Firestore:
+  // implementation(libs.firebase.firestore)
+
+  // Uncomment ALL FOUR of the following dependencies together to use Firebase Auth and Google
+  // Sign-In via Credential Manager:
+  // implementation(libs.firebase.auth)
+  // implementation(libs.androidx.credentials)
+  // implementation(libs.androidx.credentials.play.services)
+  // implementation(libs.googleid)
+  implementation(libs.firebase.appcheck.recaptcha)
+  implementation(libs.firebase.appcheck.debug)
+  implementation(libs.kotlinx.coroutines.android)
+  implementation(libs.kotlinx.coroutines.core)
+  implementation(libs.logging.interceptor)
+  implementation(libs.moshi.kotlin)
+  implementation(libs.okhttp)
+  // implementation(libs.play.services.location)
+  implementation(libs.retrofit)
+  testImplementation(libs.androidx.compose.ui.test.junit4)
+  testImplementation(libs.androidx.core)
+  testImplementation(libs.androidx.junit)
+  testImplementation(libs.junit)
+  testImplementation(libs.kotlinx.coroutines.test)
+  testImplementation(libs.robolectric)
+  testImplementation(libs.roborazzi)
+  testImplementation(libs.roborazzi.compose)
+  testImplementation(libs.roborazzi.junit.rule)
+  androidTestImplementation(platform(libs.androidx.compose.bom))
+  androidTestImplementation(libs.androidx.compose.ui.test.junit4)
+  androidTestImplementation(libs.androidx.espresso.core)
+  androidTestImplementation(libs.androidx.junit)
+  androidTestImplementation(libs.androidx.runner)
+  debugImplementation(libs.androidx.compose.ui.test.manifest)
+  debugImplementation(libs.androidx.compose.ui.tooling)
+  "ksp"(libs.androidx.room.compiler)
+  "ksp"(libs.moshi.kotlin.codegen)
+}

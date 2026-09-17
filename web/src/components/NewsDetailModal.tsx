@@ -70,9 +70,14 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
       onClick={onClose}
     >
       <div
-        className="w-full max-w-xl bg-[var(--section-bg)] border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xl relative overflow-hidden"
+        className="blob-card w-full max-w-xl"
+        role="dialog"
+        aria-modal="true"
         onClick={(e) => e.stopPropagation()}
       >
+        <div className="blob-card-bg" />
+        <div className="blob-card-blob" />
+        <div className="blob-card-inner p-5 relative">
         {/* Header gradient bar */}
         <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-blue-600 via-indigo-600 to-amber-500" />
 
@@ -192,6 +197,7 @@ export const NewsDetailModal: React.FC<NewsDetailModalProps> = ({
               )}
             </button>
           </div>
+        </div>
         </div>
       </div>
     </div>

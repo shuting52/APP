@@ -56,8 +56,11 @@ export const AddCustomModal: React.FC<AddCustomModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200">
-      <div className="bg-[var(--iiice-white)] border border-[var(--iiice-border)] rounded-2xl w-full max-w-md p-5 shadow-2xl relative">
-        <button
+      <div className="blob-card w-full max-w-md" role="dialog" aria-modal="true">
+        <div className="blob-card-bg" />
+        <div className="blob-card-blob" />
+        <div className="blob-card-inner p-5 relative">
+          <button
           type="button"
           onClick={onClose}
           className="absolute top-4 right-4 p-1 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
@@ -155,6 +158,7 @@ export const AddCustomModal: React.FC<AddCustomModalProps> = ({
             </button>
           </div>
         </form>
+        </div>
       </div>
     </div>
   );

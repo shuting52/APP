@@ -2878,3 +2878,445 @@ body {
   color: white;
   transform: scale(1.08);
 }
+
+/* ===== v1.0.3 国风红金主题追加样式 ===== */
+.app-bg-guofeng {
+  background:
+    radial-gradient(ellipse at 18% -5%, rgba(255, 215, 0, 0.10), transparent 52%),
+    radial-gradient(ellipse at 82% 8%, rgba(200, 16, 46, 0.07), transparent 55%),
+    linear-gradient(160deg, #fff7ec 0%, #fdeed8 32%, #f7d9b3 62%, #eec99a 100%);
+}
+.dark .app-bg-guofeng,
+.dark-mode .app-bg-guofeng {
+  background:
+    radial-gradient(ellipse at 18% -5%, rgba(255, 215, 0, 0.07), transparent 52%),
+    radial-gradient(ellipse at 82% 8%, rgba(200, 16, 46, 0.14), transparent 55%),
+    linear-gradient(160deg, #241a12 0%, #2e1f14 42%, #3a2418 100%);
+}
+
+.app-topbar {
+  background: #ffffffad;
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  backdrop-filter: blur(18px) saturate(160%);
+}
+.dark .app-topbar,
+.dark-mode .app-topbar {
+  background: #0f172ab8;
+}
+
+.tb-bar {
+  color: gold;
+  background: linear-gradient(135deg, #8b0000, #c8102e);
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.tb-bar:after {
+  content: "";
+  background: linear-gradient(90deg, transparent, gold, transparent);
+  width: 40%;
+  height: 2.5px;
+  animation: 3s ease-in-out infinite tbShine;
+  position: absolute;
+  bottom: 0;
+  left: -30%;
+}
+
+.tb-seal {
+  color: #7a0000;
+  background: linear-gradient(135deg, gold, #b8860b);
+  border-radius: 8px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  font-family: STKaiti, KaiTi, serif;
+  font-size: 14px;
+  font-weight: 900;
+  display: flex;
+  transform: rotate(-6deg);
+  box-shadow: 0 2px 8px #0000004d;
+}
+
+.mclock {
+  background: linear-gradient(#18181b, #09090b);
+  border: 1px solid #ffd70026;
+  border-radius: 18px;
+  align-items: center;
+  gap: 2px;
+  padding: 16px 18px;
+  display: flex;
+  box-shadow: 0 20px 40px -10px #000000b3;
+}
+.mclock .mcb {
+  background: #212121;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 52px;
+  display: flex;
+  position: relative;
+  box-shadow: inset 0 10px 18px #000, 0 1px #ffd70026;
+}
+.mclock .mcb span {
+  color: gold;
+  text-shadow: 0 0 12px #ffd70073;
+  font-family: "Courier New", monospace;
+  font-size: 28px;
+  font-weight: 800;
+}
+.mclock .msep {
+  color: #8c8c8d;
+  font-family: "Courier New", monospace;
+  font-size: 24px;
+  font-weight: 700;
+  animation: 1s step-end infinite blink;
+}
+.mclock-sm {
+  border-radius: 10px;
+  gap: 1px;
+  padding: 6px 8px;
+  box-shadow: 0 10px 20px -8px #0009;
+}
+.mclock-sm .mcb {
+  border-radius: 5px;
+  width: 24px;
+  height: 32px;
+  box-shadow: inset 0 6px 10px #000, 0 1px #ffd70026;
+}
+.mclock-sm .mcb span {
+  font-size: 17px;
+}
+.mclock-sm .msep {
+  font-size: 14px;
+}
+
+.bb-bar {
+  border-top: 2px solid #8b00001a;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 10px 10px;
+  display: flex;
+}
+.bb-item {
+  cursor: pointer;
+  color: #a0855c;
+  letter-spacing: 1px;
+  background: transparent;
+  border: none;
+  border-radius: 14px;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 7px 14px;
+  font-family: STKaiti, KaiTi, serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  transition: all 0.3s;
+  display: flex;
+  position: relative;
+}
+.bb-item .bb-ic {
+  font-size: 20px;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.bb-item:hover {
+  color: #8b0000;
+}
+.bb-item.active {
+  color: gold;
+  background: linear-gradient(135deg, #c8102e, #8b0000);
+  box-shadow: 0 6px 16px #c8102e66;
+}
+.bb-item.active .bb-ic {
+  transform: translateY(-3px) scale(1.15);
+}
+.bb-item.active:after {
+  content: "";
+  background: gold;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  animation: 1.2s infinite bbDot;
+  position: absolute;
+  top: 3px;
+  right: 7px;
+}
+
+@keyframes tbShine {
+  0% { left: -30%; }
+  50% { left: 120%; }
+  100% { left: 120%; }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+@keyframes bbDot {
+  0%, 100% { opacity: 1; box-shadow: 0 0 6px #ffd70099; }
+  50% { opacity: 0.4; box-shadow: 0 0 0 #ffd70000; }
+}
+
+/* ===== 开屏 hideAndSeek LOADING (From Uiverse.io by Subaashbala) ===== */
+.splash-loading-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splash-screen .loader {
+  --ANIMATION-DELAY-MULTIPLIER: 70ms;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Arial Black', 'PingFang SC', sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  letter-spacing: 0.05em;
+}
+.splash-screen .loader span {
+  padding: 0;
+  margin: 0;
+  letter-spacing: -5rem;
+  animation-delay: 0s;
+  transform: translateY(4rem);
+  animation: hideAndSeek 1s alternate infinite cubic-bezier(0.86, 0, 0.07, 1);
+  background: linear-gradient(135deg, #ff2200 0%, #ff5d00 30%, #ff8c00 70%, #ffaa00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 4px 14px rgba(255, 90, 0, 0.35));
+}
+.splash-screen .loader .l { animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 0); }
+.splash-screen .loader .o { animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 1); }
+.splash-screen .loader .a { animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 2); }
+.splash-screen .loader .d { animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 3); }
+.splash-screen .loader .ispan { animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 4); margin-inline: 5px; }
+.splash-screen .loader .n { animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 5); }
+.splash-screen .loader .g { animation-delay: calc(var(--ANIMATION-DELAY-MULTIPLIER) * 6); }
+.splash-screen .letter {
+  width: fit-content;
+  height: 3rem;
+}
+.splash-screen .i {
+  margin-inline: 5px;
+}
+@keyframes hideAndSeek {
+  0% { transform: translateY(4rem); }
+  100% { transform: translateY(0rem); }
+}
+
+/* ===== 开屏底部波浪启动按钮 (参考 Uiverse.io WELCOME/SAHARA 渐变波浪按钮) ===== */
+.splash-go-btn {
+  position: relative;
+  width: 240px;
+  height: 52px;
+  border: none;
+  border-radius: 9999px;
+  background: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 10;
+  outline: none;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.2em;
+  box-shadow: 0 10px 24px rgba(255, 60, 0, 0.35);
+}
+.splash-go-wave {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, hsl(37, 99%, 67%) 0%, hsl(316, 73%, 52%) 100%);
+  border-radius: 9999px;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.splash-go-btn:hover .splash-go-wave {
+  filter: saturate(1.15);
+}
+.splash-go-btn:active .splash-go-wave {
+  filter: saturate(1.4);
+}
+.splash-go-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  background: linear-gradient(90deg, #ff2200, #ff5d00, #ff8c00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 0.3s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+.splash-go-text-front {
+  color: transparent;
+}
+.splash-go-text-back {
+  transform: translate(-50%, 60%);
+  font-weight: 900;
+  z-index: 1;
+}
+.splash-go-btn:hover .splash-go-text-front {
+  transform: translate(-50%, -160%);
+}
+.splash-go-btn:hover .splash-go-text-back {
+  transform: translate(-50%, -50%);
+}
+
+/* ===== 通用毛玻璃红 blob 弹窗卡片 (From Uiverse.io by dylanharriscameron) ===== */
+.blob-card {
+  position: relative;
+  border-radius: 24px;
+  z-index: 10;
+  overflow: hidden;
+  box-shadow: 20px 20px 60px rgba(120, 40, 20, 0.28), -20px -20px 60px rgba(255, 255, 255, 0.55), 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+.blob-card-bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-radius: 20px;
+  overflow: hidden;
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  pointer-events: none;
+}
+.dark-mode .blob-card-bg,
+.dark .blob-card-bg {
+  background: rgba(28, 25, 23, 0.94);
+  outline: 2px solid rgba(68, 64, 60, 0.6);
+}
+.blob-card-blob {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  opacity: 0.85;
+  filter: blur(22px);
+  animation: blob-bounce 5s infinite ease;
+  pointer-events: none;
+}
+.blob-card-inner {
+  position: relative;
+  z-index: 3;
+}
+
+/* ===== 首页背景 gogo_3618 3D 圆环旋转渐变 loader ===== */
+.home-bg-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.home-loader-item {
+  position: absolute;
+  opacity: 0.5;
+}
+.home-loader-1 {
+  top: 90px;
+  right: -60px;
+  transform: scale(0.9);
+}
+.home-loader-2 {
+  bottom: 60px;
+  left: -70px;
+  transform: scale(0.7);
+  opacity: 0.35;
+}
+.home-loader-3 {
+  top: 45%;
+  left: 4%;
+  transform: scale(0.45);
+  opacity: 0.28;
+}
+
+/* gogo_3618 loader (From Uiverse.io by gogo_3618) */
+.gogo-loader {
+  position: relative;
+  width: 200px;
+  overflow: hidden;
+  height: 200px;
+  background: #c9d5e0;
+  border-radius: 50px;
+  transform-style: preserve-3d;
+  mix-blend-mode: hard-light;
+  box-shadow:
+    25px 25px 25px -5px rgba(0, 0, 0, 0.15),
+    inset 15px 15px 10px rgba(255, 255, 255, 0.75),
+    -15px -15px 30px rgba(255, 255, 255, 0.55),
+    inset -1px -1px 10px rgba(0, 0, 0, 0.2);
+}
+.gogo-loader .gogo-circle {
+  position: absolute;
+  inset: 35px;
+  background: #acbaca;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  box-shadow:
+    5px 5px 15px 0 #152b4a66,
+    inset 5px 5px 5px rgba(255, 255, 255, 0.55),
+    -6px -6px 10px rgba(255, 255, 255, 1);
+}
+.gogo-loader .gogo-circle::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: linear-gradient(#2196f3, #e91e63);
+  mix-blend-mode: color-burn;
+  border-radius: 50%;
+  animation: anim 2s linear infinite;
+}
+.gogo-loader .gogo-circle::after {
+  content: "";
+  position: absolute;
+  inset: 25px;
+  filter: blur(0.9px);
+  background: #acbaca;
+  border-radius: 50%;
+  z-index: 1000;
+}
+@keyframes anim {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* 开屏上的 gogo loader 缩小适配 */
+.splash-screen .gogo-loader {
+  width: 140px;
+  height: 140px;
+  border-radius: 36px;
+}
+.splash-screen .gogo-loader .gogo-circle {
+  inset: 25px;
+}
+.splash-screen .gogo-loader .gogo-circle::after {
+  inset: 18px;
+}

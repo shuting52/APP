@@ -143,9 +143,14 @@ export const DataBackupModal: React.FC<DataBackupModalProps> = ({
       onClick={onClose}
     >
       <div
-        className="w-full max-w-lg bg-[var(--section-bg)] border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 shadow-2xl relative overflow-hidden"
+        className="blob-card w-full max-w-lg"
+        role="dialog"
+        aria-modal="true"
         onClick={(e) => e.stopPropagation()}
       >
+        <div className="blob-card-bg" />
+        <div className="blob-card-blob" />
+        <div className="blob-card-inner p-5 sm:p-6 relative">
         {/* Top accent bar */}
         <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-blue-600 via-indigo-600 to-emerald-500" />
 
@@ -310,6 +315,7 @@ export const DataBackupModal: React.FC<DataBackupModalProps> = ({
               </div>
             )}
           </div>
+        </div>
         </div>
       </div>
     </div>

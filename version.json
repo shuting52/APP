@@ -1,8 +1,8 @@
 {
-  "versionCode": 6,
-  "versionName": "1.0.5",
-  "updateTitle": "v1.0.5 新版本上线",
-  "changelog": "新增强制更新弹窗：GitHub 发布新版本时自动检测并提醒\n更新弹窗内置官方群入口与「立即更新」下载按钮\n国风红金主题全面升级：顶栏印章、翻牌钟、宣纸弹窗\n精简文化栏：删除节气与表盘，仅保留日期、农历与翻牌钟\n底部导航全新国风样式，更小更精致",
-  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/shuting52/APP/main/懒得找-v1.0.5-debug.apk",
-  "apkUrlRaw": "https://raw.githubusercontent.com/shuting52/APP/main/懒得找-v1.0.5-debug.apk"
+  "versionCode": 7,
+  "versionName": "1.0.6",
+  "updateTitle": "v1.0.6 新版本上线",
+  "changelog": "开屏特效全新升级：LOADING 字母逐字弹出动画，附渐变波浪启动按钮\n首页布局重写：加入 3D 圆环旋转渐变背景装饰，沉浸通透\n设置中心改为列表形式，全部弹窗统一毛玻璃红 blob 视觉\n移除顶部与底部「分类」导航，界面更简洁聚焦\n修复已知问题并优化整体交互细节",
+  "apkUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/shuting52/APP/main/懒得找-v1.0.6-debug.apk",
+  "apkUrlRaw": "https://raw.githubusercontent.com/shuting52/APP/main/懒得找-v1.0.6-debug.apk"
 }

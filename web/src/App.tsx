@@ -86,26 +86,44 @@ export default function App() {
   // ===== 更新系统：GitHub 远端版本检测，发现新版本强制弹出更新弹窗 =====
   const [isUpdateOpen, setIsUpdateOpen] = useState(false);
   const [remoteVersion, setRemoteVersion] = useState<RemoteVersionInfo | null>(null);
+  // 记录已提示过的远端版本，避免轮询重复弹窗
+  const promptedVersionRef = useRef<number | null>(null);
 
   const checkForUpdate = async () => {
-    for (const url of UPDATE_CHECK_URLS) {
-      try {
-        const ctrl = new AbortController();
-        const timer = setTimeout(() => ctrl.abort(), 8000);
-        const res = await fetch(url, { signal: ctrl.signal });
-        clearTimeout(timer);
-        if (!res.ok) continue;
-        const json = (await res.json()) as RemoteVersionInfo;
-        if (json && typeof json.versionCode === 'number') {
-          if (json.versionCode > APP_VERSION.versionCode) {
-            setRemoteVersion(json);
-            setIsUpdateOpen(true);
+    // 并发请求所有源，取所有有效远端版本中的最高 versionCode，避免单个 CDN 缓存滞后导致漏检
+    const results = await Promise.all(
+      UPDATE_CHECK_URLS.map(async (url) => {
+        try {
+          const ctrl = new AbortController();
+          const timer = setTimeout(() => ctrl.abort(), 8000);
+          const res = await fetch(url, { signal: ctrl.signal });
+          clearTimeout(timer);
+          if (!res.ok) return null;
+          const json = (await res.json()) as RemoteVersionInfo;
+          if (json && typeof json.versionCode === 'number') {
+            return json;
           }
+          return null;
+        } catch {
+          return null;
+        }
+      })
+    );
+    const valid = results.filter((r): r is RemoteVersionInfo => r !== null);
+    if (valid.length > 0) {
+      const latest = valid.reduce((a, b) =>
+        a.versionCode > b.versionCode ? a : b
+      );
+      if (latest.versionCode > APP_VERSION.versionCode) {
+        if (promptedVersionRef.current === latest.versionCode) {
+          // 该版本已提示过，不重复弹窗
           return;
         }
-      } catch {
-        // 该源失败，尝试下一个
+        promptedVersionRef.current = latest.versionCode;
+        setRemoteVersion(latest);
+        setIsUpdateOpen(true);
       }
+      return;
     }
     // 远端不可用时退回本地“版本说明”逻辑
     try {
@@ -120,7 +138,9 @@ export default function App() {
 
   useEffect(() => {
     checkForUpdate();
-    // 仅启动时检测一次
+    // 每 5 分钟轮询一次远端版本，发现新版本实时弹窗
+    const timer = setInterval(checkForUpdate, 5 * 60 * 1000);
+    return () => clearInterval(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
